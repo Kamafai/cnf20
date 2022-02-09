@@ -13,9 +13,12 @@ var tables = [
 ];
 
 module.exports = {
+  
   setup : function () {
     var knexConfig = VTOnePage.knexConfig(process.env.NODE_ENV);
+    console.log('### setup knexConfig', knexConfig);
     var knex = require('knex')(knexConfig);
+    console.log('### setup knex', knex);
 
     return this.clearDb(knex)
       .then(() => this.setupSchema())
@@ -45,6 +48,7 @@ module.exports = {
   },
 
   setupSchema : function () {
+    console.log('### setup setupSchema', knex);
     return VTOnePage.runMigrationTask('install', true);
   },
 
