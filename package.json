@@ -18,7 +18,7 @@
     "connect-roles": "^3.0.3",
     "cookie-parser": "^1.4.0",
     "ejs": "^2.3.4",
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "express-session": "^1.12.1",
     "forms": "1.2.0",
     "jquery": "^2.1.4",
