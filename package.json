@@ -71,7 +71,7 @@
     "promise-queue": "^2.2.3",
     "quickly-copy-file": "^1.0.0",
     "request": "^2.75.0",
-    "supertest": "^1.1.0",
+    "supertest": "^6.3.3",
     "supertest-as-promised": "^2.0.2"
   },
   "browserify": {
